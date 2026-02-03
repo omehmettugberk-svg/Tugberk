@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: #1877f2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+}
+
+.login-box {
+  width: 350px;
+  background: #eee;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.login-box h1 {
+  text-align: center;
+}
+
+.login-box p {
+  margin-bottom: 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #222;
+}
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: #1877f2; /* Facebook mavi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    background: #fff;
+    width: 380px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #1877f2;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.register-container input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+.username-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.username-box span {
+    padding: 0 10px;
+    background: #f0f2f5;
+    color: #555;
+    border-right: 1px solid #ccc;
+}
+
+.username-box input {
+    border: none;
+    margin: 0;
+}
+
+.register-container button {
+    width: 100%;
+    padding: 12px;
+    background: #42b72a;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.register-container button:hover {
+    background: #36a420;
+}
+
+.register-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-container a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+}
+

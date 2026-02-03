@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="register-container">
+        <h2>Kayıt Ol</h2>
+
+        <input type="text" id="firstName" placeholder="Ad" />
+        <input type="text" id="lastName" placeholder="Soyad" />
+
+        <div class="username-box">
+            <span>@</span>
+            <input type="text" id="username" placeholder="kullaniciadi" />
+        </div>
+
+        <input type="email" id="registerEmail" placeholder="E-posta" />
+        <input type="password" id="registerPassword" placeholder="Şifre" />
+        <input type="password" id="registerPasswordAgain" placeholder="Şifre Tekrar" />
+
+        <button onclick="register()">Kayıt Ol</button>
+
+        <p>Zaten hesabın var mı? <a href="login.html">Giriş yap</a></p>
+    </div>
+
+    <!-- 🔥 FIREBASE SDK'LERİ GİTMİYOR -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+    <!-- 🔥 SENİN JS DOSYAN -->
+    <script src="script.js"></script>
+
+</body>
+</html>

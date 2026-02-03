@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-box">
+    <h1>Giriş Yap!</h1>
+    <form action="login.php" method="post">
+        <label for="username">Kullanıcı Adı:</label>
+        <input type="text" placeholder="Kullanıcı adını gir" required>
+
+        <br>
+        <label for="password">Şifre:</label>
+        <input type="password" placeholder="Şifreni gir" required>
+        <br>
+        <input type="submit" value="Giriş Yap">
+        <a href="register.html">Hesabın yok mu? Kayıt ol</a>
+    </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
